@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\Haus\source\repos\Soundex\Debug\Soundex.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="SoundexEncoding.RetainsSoloLetterOfOneLetterWord" Duration="1" />
+    <TestDuration Test="SoundexEncoding.PadsWithZerosToEnsureThreeDigits" Duration="1" />
+    <TestDuration Test="SoundexEncoding.ReplaceConsonantsWithAppropriateDigits" Duration="1" />
+    <TestDuration Test="SoundexEncoding.IgnoreNonAlpabethLetters" Duration="1" />
+    <TestDuration Test="SoundexEncoding.ReplaceMultipleConsonantsWithDigits" Duration="3" />
+    <TestDuration Test="SoundexEncoding.LimitLengthToFourCharacters" Duration="2" />
+    <TestDuration Test="SoundexEncoding.IgnoresVowelsLikeLetters" Duration="7" />
+    <TestDuration Test="SoundexEncoding.CombinesDuplicateEncodings" Duration="6" />
+    <TestDuration Test="SoundexEncoding.UpercaseFirstLatter" Duration="3" />
+    <TestDuration Test="SoundexEncoding.IgnoresCaseWhenEncodingConsonants" Duration="6" />
+    <TestDuration Test="SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st" Duration="2" />
+    <TestDuration Test="SoundexEncoding.DoesNotCombineDuplicateEncodingsSeperatedByVowels" Duration="2" />
+  </TestDurations>
+</GtaTestDurations>
